@@ -26,8 +26,6 @@ let br = board[2][2]
   prompt.get('move', function (err, result) {
   let marker = currentPlayer === 'player1' ? 'X' : 'O'
   console.log(result.move)
-  tl = marker
-  console.log(board.join('\n'))
 
 });
 //worlds longest if statement, but this just checks if any thing is 3 in a row to determine a winner
